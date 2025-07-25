@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+
+.timeline-container {
+  padding: 20px 320px;
+  max-width: 1000px;
+
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+ 
+}
+
+.timeline-heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #fdfafb;
+  font-family:   'Dancing Script', cursive;
+}
+
+
+
+.timeline-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline-card {
+  background: linear-gradient(to bottom right, #c53c6a, #ffe4e1);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 380px;
+  text-align: center;
+  max-width: 330px;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+
+.timeline-card:hover {
+  transform: translateY(-5px);
+}
+
+.timeline-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.timeline-card h3 {
+ 
+  font-size: 1.1rem;
+  color: #bb1e78;
+  font-style: italic;
+  font-weight: 500;
+}
+
+
+.timeline-emoji {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.8rem;
+  z-index: 2;
+}
+.timeline-container {
+  padding: 20px 1rem;
+}
+
+@media (min-width: 768px) {
+  .timeline-container {
+    padding: 20px 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .timeline-container {
+    padding: 20px 5rem;
+  }
+}
+@media (min-width: 768px) {
+  .timeline-card {
+    max-width: 330px;
+  }
+}
+.timeline-heading {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  .timeline-heading {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+.surprise-wrapper {
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Dancing Script',cursive;
+}
+
+.hint-text {
+  font-size: 1.2rem;
+  color: #c53c6a;
+  margin-bottom: 1rem;
+}
+
+.surprise-button {
+  font-family: 'Dancing Script',cursive;
+  background: linear-gradient(to bottom right, #c53c6a, #ffe4e1);
+  border: #ff85c1;
+  padding: 15px 30px;
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(255, 105, 180, 0.4);
+  transition: background-color 0.3s ease;
+  animation: pulse 2s infinite;
+}
+
+.surprise-button:hover {
+  background-color: #ff85c1;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: linear-gradient(to bottom right, #c53c6a, #ffe4e1);
+  padding: 1.5rem;
+  border-radius: 15px;
+  position: relative;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+}
+
+.surprise-video {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.modal-message h2 {
+  color: #f9f4f4;
+  margin-bottom: 0.5rem;
+}
+
+.modal-message p {
+  font-size: 1rem;
+  color: #f9f4f4;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #f9f4f4;
+}

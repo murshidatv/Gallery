@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.falling-flowers {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.falling-flowers span {
+  position: absolute;
+  top: -10%;
+  font-size: 2rem;
+  animation: fall linear infinite;
+  opacity: 0.8;
+}
+
+/* Random animation timing and positions */
+.falling-flowers span:nth-child(1) {
+  left: 10%;
+  animation-duration: 10s;
+  animation-delay: 0s;
+}
+.falling-flowers span:nth-child(2) {
+  left: 30%;
+  animation-duration: 12s;
+  animation-delay: 2s;
+}
+.falling-flowers span:nth-child(3) {
+  left: 50%;
+  animation-duration: 9s;
+  animation-delay: 4s;
+}
+.falling-flowers span:nth-child(4) {
+  left: 70%;
+  animation-duration: 11s;
+  animation-delay: 1s;
+}
+.falling-flowers span:nth-child(5) {
+  left: 85%;
+  animation-duration: 13s;
+  animation-delay: 3s;
+}
+.falling-flowers span:nth-child(6) {
+  left: 95%;
+  animation-duration: 15s;
+  animation-delay: 5s;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100%) rotate(0deg);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(50vh) rotate(180deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+
+.intro-section {
+  text-align: center;
+
+  font-family: ' Great Vibes ', cursive;
+  
+  animation: fadeIn 1.5s ease-in;
+  position: relative;
+  overflow: hidden;
+ 
+
+}
+
+.intro-section p {
+  font-size: 1.5rem;
+  font-family:'Dancing Script', cursive;
+}
+
+.intro-section h1 {
+  font-size: 2.5rem;
+
+}
+
+.intro-section h3 {
+  font-size: 1.5rem;
+  
+
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.2rem;
+
+}
+
+.final-line {
+ 
+  font-weight: 500;
+}
+.scroll-down-indicator {
+  font-size: 2rem;
+  color: #e3d6e0;
+  margin-top: 110px;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+
+@keyframes floatHearts {
+  0% { transform: translateY(0); opacity: 0.3; }
+  50% { transform: translateY(10px); opacity: 0.6; }
+  100% { transform: translateY(0); opacity: 0.3; }
+}
+
