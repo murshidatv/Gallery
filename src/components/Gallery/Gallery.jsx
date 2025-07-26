@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import "./gallery.css"; // Make sure the CSS file is imported
+import "./Gallery.css"; 
 
 import wed2 from "/images/wed2.jpg";
 import wed3 from "/images/wed3.jpg";
