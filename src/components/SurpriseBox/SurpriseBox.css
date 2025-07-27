@@ -13,13 +13,14 @@
 .hint-text {
   font-size: 1.2rem;
   color: #c53c6a;
-  margin-bottom: 1rem;
+  margin-bottom:40px;
 }
 
 .surprise-button {
   font-family: 'Dancing Script',cursive;
   background: linear-gradient(to bottom right, #c53c6a, #ffe4e1);
   border: #ff85c1;
+  margin-top: 10px;
   padding: 15px 30px;
   font-size: 1.3rem;
   color: white;

@@ -40,7 +40,7 @@ const Intro = () => {
 
       <div className="intro-section">
        
-      <h3>💍 Meet the Couple</h3>
+      <h1 >💍 Meet the Couple</h1>
       <p><strong>Ishfaque</strong> </p>
       <p><strong>Shahana</strong> </p>
 
