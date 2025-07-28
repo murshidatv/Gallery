@@ -30,6 +30,7 @@ export default function Gallery() {
   return (
     <div className="gallery-container">
       <div className="main-image-container">
+        <h2 className="timeline-heading">The Wedding Chapter 📸</h2>
         <AnimatePresence mode="wait">
           <motion.img
             key={images[sel].src}

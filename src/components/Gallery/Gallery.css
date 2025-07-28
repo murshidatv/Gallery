@@ -21,13 +21,7 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-.caption {
-  margin-top: 15px;
-  font-size: 1.25rem;
-  color: #f1f1f1;
-  font-weight: 500;
-  transition: all 0.4s ease;
-}
+
 
 .thumbnail-container {
   display: flex;
@@ -38,8 +32,8 @@
 }
 
 .thumbnail {
-  width: 100px;
-  height: 70px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border-radius: 10px;
   opacity: 0.6;

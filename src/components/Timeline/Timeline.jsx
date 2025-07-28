@@ -60,6 +60,7 @@ const Timeline = () => {
             transition={{ duration: 0.6, delay: index * 0.1 }}
           >
             <img src={event.image} alt={event.title} className="timeline-img" />
+            
             <span className="timeline-emoji">{event.emoji}</span>
             <p>{event.description}</p>
           </motion.div>
